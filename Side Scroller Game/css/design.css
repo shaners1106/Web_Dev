@@ -1,0 +1,85 @@
+/*
+Ryan Grady, Sakina Vidyarthi and Shane Snediker
+Dr. Jones CS301
+Last updated: 1-12-2021
+
+This file contains the CSS styling rules for our website's design page
+
+*/
+
+/*These rules provide font and style guidelines for header*/
+.h1{
+    text-align: center;
+    display: flexbox;
+    font-size: 200px;
+    position: absolute;
+    padding: 10px;
+    margin-top: 200x;
+    margin-left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(27, 69, 110);
+    text-shadow: 3px 3px 0 #000000;
+    
+}
+
+/* These rules provide design definitions for the main body of our design motivation page */
+body {
+    background-image: url("../img/bg.gif");
+    background-position: center;
+   
+}
+
+/* These rules give font rules and positioning guidelines for the text on our design page */
+.main {
+    position: absolute;
+    border: ridge 7px #cc1602;
+    float: none;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 170px;
+    width: 600px;
+    height: 320px;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(27, 69, 110);
+    text-align: center;
+    float: left;
+    letter-spacing: 2px;
+}
+
+/* These rules give font rules and position guidelines for footer text */
+.footer{
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 5%;
+  padding: 1rem;
+  font-family: monospace;
+  font-size: large;
+  color: darkblue;
+  text-align: left;
+  display: inline;
+  
+}
+
+/* Create a cool little hover effect when the user hovers over the home page link */
+a:hover{
+    color: #cc1602;
+}
+
+/* Give some character to the link that will redirect users to the home page */
+.home{
+    float: left;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: cursive;
+    font-size: x-large;
+    text-decoration: none;
+    border: outset rgb(65, 159, 218) 3px;
+    width: 120px;
+    height: 40px;
+}

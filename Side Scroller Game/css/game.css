@@ -1,0 +1,157 @@
+/*
+Ryan Grady, Sakina Vidyarthi and Shane Snediker
+Dr. Jones CS301
+Last updated: 1-12-2021
+
+This file contains the CSS rules for the actual side scroller game page
+
+*/
+
+/* Give the whole game page a boder box sizing style with no padding or margin */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The HTML and body elements need to be set to 100% height and width */
+html, body { 
+    height:100%;
+    width:100%;  
+}
+
+/* Add some definition to the body element */
+body {
+    align-content: space-evenly;
+    background-color: rgb(131, 131, 131);
+    color:#e8f71b;
+    justify-content:center;
+    border-image: url(../img/bg.gif) 15% repeat;
+    border-width: 150px;
+    border-style: solid;
+    position: relative;
+    top: 0; 
+}
+
+/* This element corresponds with the game panel and provides design rules for the game screen */
+canvas {
+    position: absolute;
+    top: 0;
+    left: -2%;
+    border: 20px solid #000000;
+    border-bottom: 60px solid black;
+    background: url("img/Front layer.png");
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* 
+   The .container class corresponds to the div that contains the game restart 
+   button as well as the game rules table.  These rules position those elements.
+*/
+.nav {
+    position: relative;
+    left: 0;
+    width: 1000px;
+    height: 200px;
+    bottom: 52%;
+    padding: 10px; 
+}
+
+/* These rules provide design and positioning to the game restart button */
+.restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    float: left;
+    top: 114%;
+    left: 5%;
+    color:ivory;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 40px;
+    line-height: 25px;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: outset rgb(65, 159, 218) 3px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 10px;   
+    background: linear-gradient(60deg,rgb(49, 93, 240), rgb(64, 201, 0));
+    transition: all 100ms ease-in-out; 
+    text-decoration: none;
+}
+
+/* These rules define the button that takes the user back to the website home page */
+.homebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    float: left;
+    top: 114%;
+    left: 20%;
+    color:ivory;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    height: 40px;
+    line-height: 25px;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: outset rgb(65, 159, 218) 3px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 10px;   
+    background: linear-gradient(60deg,rgb(49, 93, 240), rgb(64, 201, 0));
+    transition: all 100ms ease-in-out; 
+    text-decoration: none;
+}
+
+/* This pseudo-class selector prevents the restart button from having a funky lingering outline */
+.restart:focus, .homebutton:focus { 
+    outline: none; 
+    border: 3px solid #e8f71b; 
+}
+
+/* This rule effects the click to play button when a mouse hovers over it */
+.restart:hover, .homebutton:hover {
+    transform: scale(1.05, 1.05);
+    color: lightblue;  
+    cursor: pointer;
+}
+
+/* These rules give position and design to the game rules table */
+table {
+    position: absolute;
+    bottom: -113%;
+    left: 50%;
+    width: 450px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+/* These rules give character to the text within the game rules table */
+td {
+    padding: 15px;
+    background-color: #435e01;
+    text-shadow: .5px .5px 0 #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+/* These rules provide a border and definition to the table rows */
+tr {
+    border: 2px solid rgb(4, 14, 71);
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 2px;
+}
+
+

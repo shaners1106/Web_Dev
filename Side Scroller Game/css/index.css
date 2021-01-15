@@ -1,0 +1,144 @@
+/*
+Ryan Grady, Sakina Vidyarthi and Shane Snediker
+Dr. Jones CS301
+Last Updated: 1-12-2021
+
+This file contains our CSS design rules for our website
+
+*/
+
+/* This rule pulls in the clouds that provide the backdrop for our home page */
+body{
+    position: relative;
+    background-color: black;
+    background-image: url("../img/bg.gif");
+    width: 100%;
+    
+}
+/* This rule governs the top block structure of our home page */
+.pos{
+    position: relative;
+    left: -8%;
+    display: block;
+    align-items: center;
+    float: none;
+}
+
+/* Here we provide the top block structure a cool looking border */
+section{
+    border: outset #cc1602 12px;
+    margin: 10px 400px;
+    display: -moz-grid-line; 
+    height: 200px;
+    width: 600px;
+}
+
+/* This piece of code aligns the center primary game photo of our main page*/   
+.image{
+    position: absolute;
+    left: 20%;
+    display: block;
+    width: 50%;     
+    float: none;   
+}
+
+/* These rules provide spacing and design for our 3 anchor link elements */
+a {
+    color: wheat;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+/* 
+  Here we distinguish hovering effects between the two links at the top of our main
+  page and the "click to play" link because we want them to do different things.  This
+  particular set of rules highlights the top two links a contrasted color against the 
+  dark blue background when you hover over them.  
+*/
+.specialHover:hover{
+color: #573720;
+background-color: #ade374;
+display: inline-flexbox;
+}
+
+/* This rule provides slightly different effects when you hover over the click to play button */
+.button:hover {
+    transform: scale(1.05, 1.05);
+    color: lightblue;  
+    cursor: pointer;
+}
+
+/* This rule defines the font of our top block message on our main page*/
+.tex{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(7, 7, 63);  
+    text-shadow: 3px 3px 0 #000000;
+}
+
+/* This is the CSS design rule governing our click button menu */
+.nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:blanchedalmond;
+    text-align: center;
+    background: #10075f;
+    padding: 10px;   
+}
+
+/* This rule changes the color of any text item that is selected by the user */
+::selection{
+    color: blueviolet;
+}
+
+/* This rule gives our click to play button positioning and character */ 
+.button {
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    color:ivory;
+    text-align: center;
+    vertical-align: middle;
+    width: 170px;
+    height: 50px;
+    line-height: 25px;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: outset rgb(65, 159, 218) 3px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 10px;   
+    background: linear-gradient(60deg,rgb(49, 93, 240), rgb(64, 201, 0));
+    transition: all 100ms ease-in-out; 
+    text-decoration: none;
+}
+
+/* These rules provide spacing/positioning to the bottom portion of our main page */
+footer {
+    position: absolute;
+    bottom: -125%;
+    width: 990px;
+    height: 20px;
+}
+
+ /* This rule gives design to our main page's footer */
+.plot{
+    position: absolute;
+    bottom: -140%;
+    left: 8%;
+    text-align: center;
+    display: block;
+    background-color: rgb(240,240,21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 25, 82);
+    font-size: large;
+    
+}
+ 
+/* These rules provide positioning to the paragraph element that lies in the footer of the document */
+.footerMessage {
+    position: absolute;
+    top: -90%;
+    width: 1000px;
+}

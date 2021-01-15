@@ -1,0 +1,45 @@
+<!--
+Ryan Grady, Sakina Vidyarthi and Shane Snediker
+Dr. Jones CS301
+Last updated: 1-12-2021
+
+This HTML file contains the code for our website's home page
+
+We did our best to accurately tab and space the HTML elements.  
+Nested elements are all tabbed in 3 spaces.
+
+Our website's main page features a body comprised of 3 primary
+components: a top <section> that displays the name of our game
+and links to our design and resource pages in a bordered element,
+a middle <main> that features a screenshot of artwork from our 
+side scroller game scenery, and a <footer> that features and 
+invitation for website visitors to play our game.
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title> Bob's Adventureland </title>
+        <link href = "css/index.css" rel= "stylesheet">
+    </head>
+    <body>
+        <div class = "pos">
+            <section>
+                <p class="tex">BOB THE EXPLORER</p>
+                <div class = "nav">
+                    <b><a href = "design.html" class="specialHover">Design</a>  &nbsp;</b>
+                    <b><a href = "resources.html" class="specialHover">Credits</a> &nbsp; </b>
+                </div>
+            </section>    
+            <main class = "image">
+                <img src = "img/Background.png" alt = "Game cover" width = "900px" height="200px">
+            </main>
+        </div>
+        <button class="button"><a href = "game.html">Click to Play</a></button>
+        <footer class = "plot">
+            <p class="footerMessage">Accompany Bob on his adventure to see the clouds.  Save him from all incoming dangers and help Bob reach his destination!</p>
+        </footer>    
+    </body>
+</html>

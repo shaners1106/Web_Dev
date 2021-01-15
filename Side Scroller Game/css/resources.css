@@ -1,0 +1,79 @@
+/*
+Ryan Grady, Sakina Vidyarthi and Shane Snediker
+Dr. Jones CS301
+Last Updated: 1-12-2021
+
+This file contains our CSS design rules for our credits page
+
+*/
+/* CSS body selector to set background image*/
+body{
+    background-image: url("../img/bg.gif");
+}
+
+/*CSS class selector to set rules for header*/
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flexbox;
+    font-size: 200px;
+    position: absolute;
+    padding: 10px;
+    float:left;
+    color: rgb(27, 69, 110);
+    text-shadow: 3px 3px 0 #000000;
+}
+
+/* sets CSS rules for element movement in this case rolling credits*/
+@keyframes credit {
+    from {
+      top: 100%;
+    }
+    to {
+      top: -100%;
+    }
+  }
+
+  /* CSS class selector to set rules for credits section */
+  .credits {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    margin-left: 400px;
+    animation: credit 10s linear forwards infinite;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    float: right;
+
+}
+
+/*CSS class selector to set rules for name of the resources*/
+.br{
+    color: #cc1602;
+    text-shadow: black 1px;
+}
+
+/*CSS class selector to set rules for footer*/
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: cursive;
+  font-size: large;
+  color: darkblue;
+  text-align: left;
+  display: inline;
+  
+}
+
+.home {
+  text-decoration: none;
+  border: outset rgb(65, 159, 218) 3px;
+  width: 30px;
+  height: 10px;
+}
