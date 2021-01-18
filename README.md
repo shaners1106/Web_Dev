@@ -4,4 +4,4 @@ This repository contains the projects that I completed in my Internet Applicatio
 
 # Project Timeline & Milestones
 
-> > ## Phase 1: GP5
+&nbsp; &nbsp; &nbsp; ## Phase 1: GP5
