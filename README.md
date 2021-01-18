@@ -13,7 +13,6 @@ This repository contains the projects that I completed in my Internet Applicatio
       will interact with the website)
     * Create a website prototype
     * Research some core rules and principles of good graphic design (color, spacing, animations) 
-     
       and explicitly commit to following them.
     * Decide what technologies to employ(PHP, MYSQL, WordPress, Node.js) 
     * Make explicit decisions regarding how to document the software
