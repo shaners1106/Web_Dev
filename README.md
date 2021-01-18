@@ -4,11 +4,11 @@ This repository contains the projects that I completed in my Internet Applicatio
 
 # Project Timeline & Milestones
 * Client interview
-     |
-     |
-     |
-     |
-    \ /
+* *  |
+* *  |
+* *  |
+* *  |
+* * \ /
 * Deliverable 1 (GP5)
      |
      |
