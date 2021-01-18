@@ -7,11 +7,9 @@ This repository contains the projects that I completed in my Internet Applicatio
    * ## Design Phase (GP5)
      
     In this phase we will work together to brainstorm and formulate a high level account of the 
-    
     functionality of our website.  During this phase we will complete the following primary goals:
-    *  Develop a test plan that will verify that our website meets project requirements
+    * Develop a test plan that will verify that our website meets project requirements
     * Create a website story-board (a series of images/drawings that illustrate how the users   
-     
       will interact with the website)
     * Create a website prototype
     * Research some core rules and principles of good graphic design (color, spacing, animations) 
