@@ -5,7 +5,8 @@ This repository contains the projects that I completed in my Internet Applicatio
 # Project Timeline & Milestones
 
    * ## Design Phase (GP5)
-     
+
+    __Deliverable: Thursday, January 21, 2021__ 
     In this phase we will work together to brainstorm and formulate a high level account of the 
     functionality of our website.  During this phase we will complete the following primary goals:
     * Develop a test plan that will verify that our website meets project requirements
