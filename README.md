@@ -23,7 +23,13 @@ This repository contains the projects that I completed in my Internet Applicatio
   
     Deliverable: Monday, January 25, 2021
 
-    In this phase we take the design that we drafted in phase 1 and we flesh it out.  Using the technologies that we've chosen and constraining ourselves to the core graphical design principles that we've decided on, we write the code for our website. The following guideposts will help our implementation to stay focused and organized:
+    In this phase we take the design that we drafted in phase 1 and we flesh it out.  Using the
+    
+    technologies that we've chosen and constraining ourselves to the core graphical design 
+    
+    principles that we've decided on, we write the code for our website. The following guideposts 
+    
+    will help our implementation to stay focused and organized:
     * Website implementation points of emphasis:
 	    -Excellent content and good graphic design principles
 	    -Intuitive, easy to use interface
