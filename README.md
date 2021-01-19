@@ -2,6 +2,12 @@
 
 This repository contains the projects that I completed in my Internet Applications Development course at Whitworth University in January of 2021.
 
+# Management
+
+Our team is committed to achieving equal participation and contributions from each team member from the design phase to the implementation phase all the way through the presentation of our final product.  The main avenue that we have set out to accomplish this is by mutual commitment to a high level of communication.  We are going to have nightly Discord meetings every night leading up to the final deliverable on Monday, January 25th in order to communicate all pressing project requirements and responsibilities.  In the spirit of communication, since our team will be in competition with Team Seattle to create a website for Skills USA, we will designate Matthew as a mediator to handle the primary communications between our team and team Seattle as well as any communication that might be needed with the client.  We feel as though it will be really important to have an open, charitable line of communication between our groups so that we can help and push each other toward developing the best possible end product.  Also, the desires of our client include soliciting the assistance of Team Seattle and Team Jakarta team members to help facilitate the programming competition that will take place on January 28th.  Designating Matthew as a team spokesperson will help streamline the flow communication and limit the amount of points of contact that our client will receive from both groups.
+
+Finally, we will each create our own branch from Whitgit that we will use to work independently on our individual responsibilities; however, with nightly group meetings, we will each be able to maintain a comprehensive grasp on our project progress.  Our vision is to approach each night by developing a design/implementation plan where we outline the applicable responsibilities for the next 24 hours and evenly distribute those responsibilities between the 3 of us.  This process will begin on Tuesday, January 19th.  
+
 # Project Timeline & Milestones
 
    * ## Design Phase (GP5)
