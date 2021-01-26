@@ -1,0 +1,37 @@
+<!--
+Matthew Lochridge, Ryan Grady and Shane Snediker
+Dr. Jones CS 301
+GP6 Final Project
+SkillsUSA Programming Competition website
+Last updated: January 24, 2021
+
+This is the html file for our website home page
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SkillsUSA Programming Competition</title>
+        <link rel = "stylesheet" href = "css/w3.css">
+    </head>
+    <!-- Our primary website home page banner that displays the client's specific requested website title -->
+    <div class = "w3-blue w3-container w3-padding-left w3-center"><h1>Welcome to the Eastern Washington Regional Programming Competition!</h1>
+        <body class = "w3-light-grey">
+            <!-- Display the SkillsUSA logo to give the home page a special brand and character -->
+            <img src = "img/SkillsUSA-Logo-2c.gif" class = "w3-display-left w3-margin-left w3-margin-bottom" style="width:20%">
+            <form class="w3-gray w3-container w3-card w3-half w3-display-middle" action="/quiz">
+                <!-- Students will have 2 choices to make: take the quiz and access the coding challenges -->
+                <h3>Competition Links:</h3>
+                <p><div class = "btn"><button  class="w3-button w3-black" style="width:100%" id = "quizbtn">Take Quiz</button></div></p>         
+                <p><button formaction="/prompts" class="w3-button w3-black " style="width:100%">Prompts</button></p> 
+            </form>
+        </body>
+    </div>
+    <!-- Include an inspirational quote to add character and charm to the home page-->
+    <div class="low">
+        <p class="MariaQuote">"Coding is today's language of creativity.  All our children deserve a chance to become creators instead of consumers of computer science."</p>
+        <p class="Maria">Computer Scientist Maria Klawe</p>
+    </div>
+</html>

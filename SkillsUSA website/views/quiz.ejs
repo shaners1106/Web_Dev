@@ -1,0 +1,42 @@
+<!--
+Matthew Lochridge, Ryan Grady and Shane Snediker
+Dr. Jones CS 301
+GP6 Final Project
+SkillsUSA Programming Competition website
+Last updated: January 24, 2021
+
+This is the HTML file for our website's quiz page
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+    <meta charset="utf-8">
+    <title>SkillsUSA Quiz</title>
+    <!-- Pull in the CSS rules and JavaScript that we will use to give this page character -->
+    <link rel = "stylesheet" href = "css/w3.css">
+    <script src="js/quiz.js"></script>
+    </head>
+    <!-- Main body of the quiz page begins here -->
+    <body class = "w3-light-grey">
+        <div class = "w3-bar w3-blue">
+            <a class = "w3-bar-item w3-button w3-black" href='/'>Home</a>
+            <span class = "w3-bar-item">Quiz</span>    
+        </div>
+        <div class = "w3-row">
+            <div class = "w3-col m3">
+                <!-- Utilize the SkillsUSA logo for flare -->
+                <img src = "img/SkillsUSA-Logo-2c.gif" class = "w3-padding" style="width:85%">
+            </div>
+            <div class = "w3-col m6">
+                <!-- This is where we initialize the Google Form that will be used to store the student's quiz information -->
+                <form class="w3-container w3-card w3-white w3-round w3-margin"><br>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSey7IPgHSNJf2jrz3fTsOeTfdnm55BCp3lbRz4EAgbQZKGYpQ/viewform?embedded=true" width="100%" height="906" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </form>
+            </div>
+            <div class = "w3-col m3"></div>
+        </div>
+    </body>
+</html>

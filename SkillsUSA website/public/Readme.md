@@ -1,0 +1,3 @@
+# Public
+
+The public directory contains the CSS rules and image assets that were used in the design of our website.  The js directory was originally created to hold JavaScript files that we were going to use to enhance the student's interactions with the website.  However, because the website will serve as a competition forum, we went away from using JavaScript within the quiz or prompts pages because students who are particularly savvy would have the potential ability to use DevTools to open the JavaScript sources and have unwarranted access.  We did keep the JavaScript quiz framework within this directory in the event we would want to reference it in the future.

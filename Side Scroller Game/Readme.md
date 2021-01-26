@@ -1,0 +1,3 @@
+# Super Mario Flash Back
+
+This directory contains the source code for the JavaScript side scroller game that I made for my Windows Web Applications course at Whitworth.  I was inspired by childhood memories of playing Super Mario World jumping over Goompas.  The website features an introductory main page, a design page that overviews the inspiration of the game, a resources page that overviews the resources that I used in making the game, and the main game play page.
