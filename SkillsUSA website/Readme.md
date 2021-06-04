@@ -4,7 +4,7 @@ This repository contains the source code and resources that we used to construct
 
 ## How to demo our website in its current state
 
-In order to get our website up and running within the current front end/back end framework, start a new terminal within VSCode, initiate a Node.js server by running the command "npm init" and install each of the dependencies listed in our package.json file, run the command "node skillsUSA.js" in the terminal, check your console output to make sure that the node server is up and listening, and then in your browser navigate to http://localhost:3500.  3500 is the port that we used for our Express server.
+In order to get our website up and running within the current front end/back end framework, start a new terminal within VSCode, make sure to cd into the directory containing this project, initiate a Node.js server by running the command "npm init" and install each of the dependencies listed in our package.json file, run the command "node skillsUSA.js" in the terminal, check your console output to make sure that the node server is up and listening, and then in your browser navigate to http://localhost:3500.  3500 is the port that we used for our Express server.
 
 ## Client overview
 
